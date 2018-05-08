@@ -11,7 +11,7 @@
 #define kFontSize 13.f
 #define kTriangleWH 20.f
 #define kDefTitleCor [UIColor colorWithRed:0.560 green:0.550 blue:0.520 alpha:1.000]
-#define kSelTitleCor [UIColor colorWithRed:0.100 green:0.700 blue:0.610 alpha:1.000]
+#define kSelTitleCor [UIColor colorWithRed:0.980 green:0.440 blue:0.270 alpha:1.000]
 
 @interface MenuButton ()
 {

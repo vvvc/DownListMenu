@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ZFMainVC.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    ZFMainVC *main = [[ZFMainVC alloc] init];
+    
+    ViewController *main = [[ViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:main];
     self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     self.window.rootViewController = nav;
